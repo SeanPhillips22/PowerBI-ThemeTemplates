@@ -1,47 +1,58 @@
 {
-	"name": "CardTemplate",
-	"visualStyles": {
-		"card": {
-			"*": {
-				"labels": [{
-					"color": { "solid": { "color": "#000000"}},
-					"labelDisplayUnits": "0",
-					"labelPrecision": 0,
-					"fontSize": 10,
-					"fontFamily": "Verdana"
-				}],
-				"categoryLabels": [{
-					"show": true,
-					"color": { "solid": { "color": "#01B8AA"}},
-					"fontSize": 10,
-					"fontFamily": "Verdana"
-				}],
-				"wordWrap": [{
-					"show": true
-				}],
-				"background": [{
-						"show": true,
-						"color": {
-							"solid": {
-								"color": "#000000"
-							}
-						},
-						"transparency": 0
-					}
-				],
-				  "title": [{
-				    "show": true,
-				    "fontColor": { "solid": { "color": "#ffffff" } },
-				    "background": { "solid": { "color": "#062b60" } },
-				    "alignment": "left",
-				    "fontSize": 11,
-				    "fontFamily": "Segoe UI"
-				  }],
-				  "border": [{
-				    "show": true,
-				    "color": { "solid": { "color": "#062b60"}}
-				  }]
-			}
-		}
-	}
+  "name": "MCPcCardTemplate",
+  "visualStyles": {
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#000000" } },
+            "labelDisplayUnits": "0",
+            "labelPrecision": 0,
+            "fontSize": 19,
+            "fontFamily": "Verdana"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "show": false,
+            "color": { "solid": { "color": "#000000" } },
+            "fontSize": 16,
+            "fontFamily": "Verdana"
+          }
+        ],
+        "wordWrap": [
+          {
+            "show": true
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#E6E6E6"
+              }
+            },
+            "transparency": 50
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "background": { "solid": { "color": "#2c3459" } },
+            "alignment": "center",
+            "fontSize": 13,
+            "fontFamily": "Lucida Sans Unicode"
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#000000" } }
+          }
+        ]
+      }
+    }
+  }
 }

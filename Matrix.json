@@ -1,77 +1,90 @@
 {
-	"name": "MatrixTemplate",
-	"visualStyles": {
-		"pivotTable": {
-			"*": {
-				"grid": [{
-					"gridVertical": true,
-					"gridVerticalColor": { "solid": { "color": "#FFB8DD"}},
-					"gridVerticalWeight": 2,
-					"gridHorizontal": true,
-					"gridHorizontalColor": { "solid": { "color": "#FFB8DD"}},
-					"gridHorizontalWeight": 2,
-					"rowPadding": 2,
-					"outlineColor": { "solid": { "color": "#FFB8DD"}},
-					"outlineWeight": 2,
-					"textSize": 14,
-					"imageHeight": 100
-				}],
-				"columnHeaders": [{
-					"fontColor": { "solid": { "color": "#00B8DD"}},
-					"backColor": { "solid": { "color": "#00AA22"}},
-					"outline": "Frame",
-					"autoSizeColumnWidth": true,
-					"fontFamily": "Courier New",
-					"fontSize": 12,
-					"alignment": "Left",
-					"urlIcon": true,
-					"wordWrap": true
-				}],
-				"rowHeaders": [{
-					"fontColor": { "solid": { "color": "#00B8DD"}},
-					"backColor": { "solid": { "color": "#00AA22"}},
-					"outline": "Frame",
-					"stepped": true,
-					"steppedLayoutIndentation": 12,					
-					"urlIcon": true,
-					"wordWrap": true,
-					"fontFamily": "Courier New",
-					"fontSize": 12,
-					"alignment": "Left"
-				}],
-				"values": [{
-					"fontColorPrimary": { "solid": { "color": "#00B8DD"}},
-					"backColorPrimary": { "solid": { "color": "#00AA22"}},
-					"fontColorSecondary": { "solid": { "color": "#FFB8DD"}},
-					"backColorSecondary": { "solid": { "color": "#FFAA22"}},
-					"bandedRowHeaders": true,
-					"valuesOnRow": true,
-					"outline": "Frame",
-					"urlIcon": true,
-					"wordWrap": true,
-					"fontFamily": "Courier New",
-					"fontSize": 12
-				}],
-				"subTotals": [{
-					"rowSubtotals": true,
-					"columnSubtotals": true,
-					"fontColor": { "solid": { "color": "332222"}},
-					"fontFamily": "Verdana",
-					"backColor": { "solid": { "color": "01B8AA"}},
-					"fontSize": 14,
-					"applyToHeaders": true,
-					"rowSubtotalsPosition": "Bottom",
-					"perRowLevel": true,
-					"perColumnLevel": true					
-				}],
-				"total": [{
-					"fontColor": { "solid": { "color": "#00B8DD"}},
-					"fontFamily": "Courier New",
-					"backColor": { "solid": { "color": "#00AA22"}},
-					"applyToHeaders": true,
-					"fontSize": 14
-				}]
-			}
-		}
-	}
+  "name": "MCPcMatrixTemplate",
+  "visualStyles": {
+    "pivotTable": {
+      "*": {
+        "grid": [
+          {
+            "gridVertical": true,
+            "gridVerticalColor": { "solid": { "color": "#000000" } },
+            "gridVerticalWeight": 2,
+            "gridHorizontal": true,
+            "gridHorizontalColor": { "solid": { "color": "#000000" } },
+            "gridHorizontalWeight": 2,
+            "rowPadding": 2,
+            "outlineColor": { "solid": { "color": "#000000" } },
+            "outlineWeight": 2,
+            "textSize": 8,
+            "imageHeight": 75
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#000000" } },
+            "backColor": { "solid": { "color": "#FFFFFF" } },
+            "outline": "Bottom",
+            "autoSizeColumnWidth": true,
+            "fontFamily": "Lucida Sans Unicode",
+            "fontSize": 10,
+            "alignment": "Center",
+            "urlIcon": true,
+            "wordWrap": true
+          }
+        ],
+        "rowHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#000000" } },
+            "backColor": { "solid": { "color": "#FFFFFF" } },
+            "outline": "Right",
+            "stepped": true,
+            "steppedLayoutIndentation": 0,
+            "urlIcon": true,
+            "wordWrap": false,
+            "fontFamily": "Verdana",
+            "fontSize": 9,
+            "alignment": "Left",
+            "showExpandCollapseButtons": true
+          }
+        ],
+        "values": [
+          {
+            "fontColorPrimary": { "solid": { "color": "#000000" } },
+            "backColorPrimary": { "solid": { "color": "FFFFFF" } },
+            "fontColorSecondary": { "solid": { "color": "#000000" } },
+            "backColorSecondary": { "solid": { "color": "#FFFFFF" } },
+            "bandedRowHeaders": true,
+            "valuesOnRow": false,
+            "outline": "None",
+            "urlIcon": true,
+            "wordWrap": false,
+            "fontFamily": "Verdana",
+            "fontSize": 9
+          }
+        ],
+        "subTotals": [
+          {
+            "rowSubtotals": true,
+            "columnSubtotals": true,
+            "fontColor": { "solid": { "color": "#000000" } },
+            "fontFamily": "Verdana",
+            "backColor": { "solid": { "color": "#FFFFFF" } },
+            "fontSize": 9,
+            "applyToHeaders": true,
+            "rowSubtotalsPosition": "Top",
+            "perRowLevel": true,
+            "perColumnLevel": true
+          }
+        ],
+        "total": [
+          {
+            "fontColor": { "solid": { "color": "#000000" } },
+            "fontFamily": "Verdana",
+            "backColor": { "solid": { "color": "#FFFFFF" } },
+            "applyToHeaders": true,
+            "fontSize": 9
+          }
+        ]
+      }
+    }
+  }
 }
